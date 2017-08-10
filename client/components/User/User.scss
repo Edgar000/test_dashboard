@@ -1,0 +1,18 @@
+.user {
+  background: linear-gradient(to bottom, #45b8d8 0%, #5281a8 0%, #9657d1 100%);
+  display: flex;
+  padding: 50px 20px;
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.user__name {
+  font-size: 18px;
+}
+
+.user__company-name {
+  font-size: 14px;
+}

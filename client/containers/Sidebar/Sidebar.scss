@@ -1,0 +1,66 @@
+.sidebar {
+  background-color: rgb(38, 47, 63);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.25s linear;
+}
+
+.sidebar_opened {
+  width: 300px;
+  min-width: 300px;
+}
+
+.sidebar_closed {
+  width: 100px;
+  min-width: 100px;
+}
+
+.sidebar__logo {
+  font-size: 30px;
+  padding: 20px;
+  height: 40px;
+  text-align: center;
+}
+
+.sidebar__logo:first-letter {
+  color: rgb(206, 72, 72);
+}
+
+.sidebar__general {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.menu {
+  padding: 20px 40px;
+}
+
+.menu_opened {
+  background-color: rgb(113, 149, 214);
+  font-size: 14px;
+
+  i {
+    font-size: 30px;
+  }
+}
+
+.menu_closed {
+  font-size: 18px;
+
+  i {
+    font-size: 22px;
+  }
+}
+
+.menu__name {
+  display: flex;
+}
+
+.menu__list {
+    font-size: 18px;
+}

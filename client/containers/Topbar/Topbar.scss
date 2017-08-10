@@ -1,0 +1,66 @@
+.topbar {
+  background-color: rgb(37, 142, 142);
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  text-align: center;
+  height: 44px;
+  transition: left 0.25s linear;
+
+  i {
+    font-size: 24px;
+    margin-top: 8px;
+  }
+}
+
+.topbar_opened {
+  position:fixed;
+  top:0;
+  left:300px;
+  right:0;
+}
+
+.topbar_closed {
+  position:fixed;
+  top:0;
+  left:100px;
+  right:0;
+}
+
+.topbar__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.topbar__open-button {
+  background-color: rgb(87, 225, 249);
+  position: relative;
+  left: -60px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.topbar__close-button {
+  background-color: rgb(87, 225, 249);
+  position: relative;
+  left: -60px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  i{
+    transform: rotate(180deg);
+  }
+}
+
+.topbar__period {
+  select {
+    margin-left: 20px;
+    height: 25px;
+    border-radius: 5px;
+  }
+}
